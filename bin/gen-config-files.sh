@@ -1,7 +1,6 @@
-
 CONFIG_DIR=$(./wheresmyconfig.sh)
-CONFIG_DEV="${CONFIG_DIR}development.json"
-CONFIG_PROD="${CONFIG_DIR}production.json"
+CONFIG_DEV="${CONFIG_DIR}/development.json"
+CONFIG_PROD="${CONFIG_DIR}/production.json"
 
 
 touch $CONFIG_DEV
